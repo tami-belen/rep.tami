@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css\syte.css ">
+
     <title>Tienda de Ropa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css\syte.css ">
 </head>
 
 
@@ -22,27 +25,54 @@
 
     </header>
 
-    <nav>
-        <a href="#">INICIO</a>
-        <a href="#">PRODUCTOS</a>
-        <a href="#">SOBRE NOSOTROS</a>
-        <a href="#">CONTACTO</a>
-        <a href="#">UBICACION</a>
+    
+        <nav class="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">BARUCH</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-disabled="true">Sobre Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-disabled="true">Ubicacion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-disabled="true">Contactos</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+                            
 
-    </nav>
+    
     <hr>
-    <div class="tien">
+    
         <h2>TIENDA</h2>
         <section class="imagen de la tienda">
-            <article>
+            <article class="tien"> 
                 <img src="https://galeriaourovelho.com.br/wp-content/uploads/2019/05/Projetos-de-Iluminacao-Comercial-em-Santos-3.jpg"
                     width="500px" alt="">
 
 
 
             </article>
-
-    </div>
+<div class="anim">
+    
     <h2>PRODUCTOS :</h2>
 
 
@@ -66,36 +96,50 @@
         <article class="blusa">
             <img src="https://th.bing.com/th/id/OIP.Oe3bXCn6THDdqKlLSNubHQHaLH?pid=ImgDet&rs=1" width="250px" alt="">
         </article>
+    
 
     </section>
+</div>
+
+
     <br>
     <br>
 
-    <section>
+
+</div>
+    <section > 
         <h2>SOBRE NOSOTROS</h2>
-        <article>
-            <P>
-                Somos una marca de ropa de mujer, nacida en Buenos Aires hace ya casi 30 años.
+       <div class="text">
+        <P>
+            Somos una marca de ropa de mujer, nacida en Buenos Aires hace ya casi 30 años.
 
-                En pocas palabras, nos encanta hacer ropa cómoda, versátil y con los toques justos de lo que se usa.
+            En pocas palabras, nos encanta hacer ropa cómoda, versátil y con los toques justos de lo que se usa.
 
-                Amamos los básicos, los jeans, las estampas personalizadas, los colores y todo aquello que te
-                permita
-                sacar tu mejor versión.
+            Amamos los básicos, los jeans, las estampas personalizadas, los colores y todo aquello que te
+            permita
+            sacar tu mejor versión.
 
-                Hacemos prendas democráticas, para todas las edades y todos los estilos. Pensadas para vos, porque
-                sabemos que no hay nadie más experto en nuestra ropa, que nuestras clientas.
+            Hacemos prendas democráticas, para todas las edades y todos los estilos. Pensadas para vos, porque
+            sabemos que no hay nadie más experto en nuestra ropa, que nuestras clientas.
 
-                Con más de 22 tiendas en Argentina, ubicadas en los centros comerciales más importantes, y con
-                nuestra
-                tienda online, llegamos a muchas mujeres. Actualmente queremos invitarlas a conocer nuestra tienda
-                Online que al igual que los locales, se destaca por un diseño con muchas personalidad e identidad,
-                en
-                donde vas a poder vivir nuestra experiencia , y descubrir nuestras colecciones.
+            Con más de 22 tiendas en Argentina, ubicadas en los centros comerciales más importantes, y con
+            nuestra
+            tienda online, llegamos a muchas mujeres. Actualmente queremos invitarlas a conocer nuestra tienda
+            Online que al igual que los locales, se destaca por un diseño con muchas personalidad e identidad,
+            en
+            donde vas a poder vivir nuestra experiencia , y descubrir nuestras colecciones.
 
 
-            </P>
-        </article>
+
+        </P>
+
+
+    </div>
+
+
+
+
+
         <BR>
 
 
@@ -137,7 +181,13 @@
 
 
 
-    </header>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
 
 </body>
 
