@@ -24,6 +24,7 @@ h2{
     border: 10px;
     text-align: center;
 }
+/*información*/
 .ubic{
     text-align: center;
 }
@@ -36,7 +37,7 @@ transform: scaleX(2.5)
 
 
 }
-
+/*bootstrap navbar*/
 .navbar{
     background-color: rgb(135, 35, 135);
 }
@@ -45,18 +46,18 @@ transform: scaleX(2.5)
     
     
     
+/*responsive*/
 
-
-@media (max-width:500px){
+@media (min-width:600px){
     body {
-        background-color: aqua;
+        background-color: rgba(133, 12, 170, 0.631);
     }
 
 
 }
-@media(min-width:400px){
+@media(max-width:300px){
     body{
-        background-color: rgb(96, 46, 82);
+        background-color: rgba(118, 20, 131, 0.646);
     }
     
     }
@@ -65,10 +66,10 @@ transform: scaleX(2.5)
     color: aquamarine;
 }
 
-
+/*animación*/
 .text{
 
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-name: animacion;
     animation-iteration-count:infinite ;
 }
